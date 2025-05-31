@@ -10,9 +10,9 @@ pool:
  name:Default
 
 steps:
- - script:echo Hello,world!
-  displayName:'run a one-line script'
- - script:mvn clean install
-  displayName:'bulid a maven'
- - script:java -jar target/MavenApp109-1.0-SNAPSHOT.jar
-  displayName:'running maven'
+- script:echo Hello,world!
+displayName:'run a one-line script'
+- script:mvn clean install
+displayName:'bulid a maven'
+- script:java -jar target/MavenApp109-1.0-SNAPSHOT.jar
+displayName:'running maven'
