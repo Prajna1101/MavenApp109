@@ -21,6 +21,6 @@ steps:
 
   displayName: 'Build with Maven'  
 
-- script: java -jar target/MyMavenApp-1.0-SNAPSHOT.jar
+- script: java -jar target/MavenApp109-1.0-SNAPSHOT.jar
 
   displayName: 'Running jar'
